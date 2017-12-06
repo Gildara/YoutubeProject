@@ -1,3 +1,3 @@
 # YoutubeProject
 
-This project is a group project for the members of the FCCLadiesLounge group.
+This is a group project for the members of the FCCLadiesLounge group. We are using Youtube API.
