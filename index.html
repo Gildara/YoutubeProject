@@ -7,7 +7,7 @@
     <title> Youtube Video Viewer</title>
   </head>
   <body>
-    <div class = "container all">
+    <!-- <div class = "container all">
       <div class = "container app">
         <p class = "title"> Youtube Video Viewer </p>
 
@@ -16,6 +16,28 @@
           <button> search </button>
         </div>
       </div>
-    </div>
+    </div> -->
+
+    <!---____________________ADJUSTMENTS BY https://github.com/mira5619 _____________________-->
+    <div class="container">
+
+      <!--  Inna I change you <p> element to <h1>, this is requirement for semantic html, page to have <h1>(heading element) and it is good for screen readers(disabled people)-assesibility -->
+       <h1 class="title">Youtube Video Viewer</h1>
+
+       <div class="input-container">
+         <!-- it is good paractice input element to have <label>, can you sort out what to write in there? please? i do not have idea, if we do not fugure out what to wrire we can delete it(the label)-->
+
+             <label for="search">Search</label>
+             <!-- we are going to use input and button later in our js file, instead of classess I put there a ids -->
+             <!-- and I do not think we need button, we can make live search, untill user is typing...we will see, it looks better with btn -->
+              <div class="container search-button">
+               <input id="search" type="text" name="search" placeholder="Search.." value="search">
+
+               <button id="btn">Search</button>
+             </div>
+       </div>
+       <ul id="output">here we going to put our result</ul>
+   </div>
+   <script src="main.js"></script>
   </body>
 </html>
